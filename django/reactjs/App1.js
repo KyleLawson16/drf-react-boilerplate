@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import promise from 'redux-promise';
 
 import reducers from './reducers';
-import AddVideo from './components/video_add';
+import HelloWorld from './components/hello_world';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -15,7 +15,7 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Switch>
-          <Route exact path="/" component={AddVideo} />
+          <Route exact path="/" component={HelloWorld} />
         </Switch>
       </div>
     </BrowserRouter>

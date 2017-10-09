@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'webpack_loader',
     'rest_framework',
 
-    'videos',
+    'hello_world',
 ]
 
 MIDDLEWARE_CLASSES = [
